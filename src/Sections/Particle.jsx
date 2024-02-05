@@ -35,7 +35,7 @@ const ParticleBlock = block(function Particle() {
               value: "#ffffff",
             },
             shape: {
-              type: "circle",
+              type: "square",
               options: {
                 sides: 5,
               },
@@ -109,7 +109,7 @@ const ParticleBlock = block(function Particle() {
               grab: {
                 distance: 150,
                 line_linked: {
-                  opacity: 1,
+                  opacity: 0.5,
                 },
               },
               bubble: {
@@ -121,7 +121,7 @@ const ParticleBlock = block(function Particle() {
               },
               repulse: {
                 distance: 150,
-                duration: 0.4,
+                duration: 1,
               },
               push: {
                 particles_nb: 4,
