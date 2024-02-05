@@ -54,78 +54,37 @@ const AboutUsBlock = block(function AboutUs() {
       <section id="aboutus" class="bg-[#9e9791]">
         {/* <NavBlock /> */}
 
-        <div class="container px-6 pt-8 lg:pt-24 pb-12 lg:pb-32 mx-auto">
+        <div class="container px-6 pt-8 lg:pt-15 pb-12 lg:pb-32 mx-auto">
           <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">
-            Our Team
+            Checkout my Projects
           </h1>
 
-          <p class="max-w-2xl mx-auto my-6 text-center text-2xl text-black ">
+          {/* <p class="max-w-2xl mx-auto my-6 text-center text-2xl text-black ">
             Our passionate and dedicated team exists to serve
             <span class="text-[#ffffff] font-bold"> You</span>
-          </p>
+          </p> */}
 
           <div class="grid grid-cols-2 gap-4 lg:gap-8 mt-8 xl:mt-16 xl:gap-24 md:grid-cols-2 xl:grid-cols-3">
             <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src={hpIMG}
+                //src={hpIMG}  REPLACE WITH SS OF PROJECT
                 alt=""
               ></img>
 
               <h1 class="mt-4 text-xl lg:text-2xl font-semibold text-black capitalize group-hover:text-white">
-                Haren Pylla
+                2D Survival Game
               </h1>
 
               <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">
-                Co-Founder/Developer
+                Java
               </p>
 
               <div class="flex mt-3 -mx-2">
-                <a
-                  href="https://instagram.com/haren_py11a?igshid=Y2I2MzMwZWM3ZA=="
-                  class="mx-2 text-gray-800 hover:text-gray-500 group-hover:text-white"
-                >
-                  <svg
-                    class="h-7 w-7"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path stroke="none" d="M0 0h24v24H0z" />{" "}
-                    <rect x="4" y="4" width="16" height="16" rx="4" />{" "}
-                    <circle cx="12" cy="12" r="3" />{" "}
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                  </svg>
-                </a>
+                
 
                 <a
-                  href="https://www.linkedin.com/in/haren-pylla/"
-                  class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                >
-                  <svg
-                    class="h-6 w-6 "
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />{" "}
-                    <rect x="2" y="9" width="4" height="12" />{" "}
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>{" "}
-                </a>
-
-                <a
-                  href="https://github.com/harenPy11a"
+                  href="https://github.com/KrishBothra/2D-Surival-Game"
                   class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 >
                   <svg
@@ -143,64 +102,23 @@ const AboutUsBlock = block(function AboutUs() {
             <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src={skIMG}
+                //src={skIMG}
                 alt=""
               ></img>
 
               <h1 class="mt-4 text-xl lg:text-2xl font-semibold text-black capitalize group-hover:text-white">
-                Sahil Khunt
+                Fling Animation
               </h1>
 
               <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">
-                Co-Founder/Developer
+                Java/Android Studio
               </p>
 
               <div class="flex mt-3 -mx-2">
-                <a
-                  href="ttps://instagram.com/sahil_khunt08?igshid=OGQ5ZDc2ODk2ZA=="
-                  class="mx-2 text-gray-800 hover:text-gray-500 group-hover:text-white"
-                >
-                  <svg
-                    class="h-7 w-7"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path stroke="none" d="M0 0h24v24H0z" />{" "}
-                    <rect x="4" y="4" width="16" height="16" rx="4" />{" "}
-                    <circle cx="12" cy="12" r="3" />{" "}
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                  </svg>
-                </a>
+               
 
                 <a
-                  href="#n"
-                  class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                >
-                  <svg
-                    class="h-6 w-6 "
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />{" "}
-                    <rect x="2" y="9" width="4" height="12" />{" "}
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>{" "}
-                </a>
-
-                <a
-                  href="https://github.com/SahilKhunt08"
+                  href="https://github.com/KrishBothra/Fling-Animation"
                   class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 >
                   <svg
@@ -218,64 +136,23 @@ const AboutUsBlock = block(function AboutUs() {
             <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src={vpIMG}
+                //src={vpIMG}
                 alt=""
               ></img>
 
               <h1 class="mt-4 text-xl lg:text-2xl font-semibold text-black capitalize group-hover:text-white">
-                Vedant Patel
+                Spotify API
               </h1>
 
               <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">
-                Co-Founder/Developer
+                React/JavaScript
               </p>
 
               <div class="flex mt-3 -mx-2">
-                <a
-                  href="https://instagram.com/vedantp16?igshid=Y2I2MzMwZWM3ZA=="
-                  class="mx-2 text-gray-800 hover:text-gray-500 group-hover:text-white"
-                >
-                  <svg
-                    class="h-7 w-7"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path stroke="none" d="M0 0h24v24H0z" />{" "}
-                    <rect x="4" y="4" width="16" height="16" rx="4" />{" "}
-                    <circle cx="12" cy="12" r="3" />{" "}
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                  </svg>
-                </a>
+                
 
                 <a
-                  href="#n"
-                  class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                >
-                  <svg
-                    class="h-6 w-6 "
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />{" "}
-                    <rect x="2" y="9" width="4" height="12" />{" "}
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>{" "}
-                </a>
-
-                <a
-                  href="https://github.com/vedantp1621"
+                  href="https://github.com/KrishBothra/Spotify-Api"
                   class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 >
                   <svg
@@ -293,64 +170,23 @@ const AboutUsBlock = block(function AboutUs() {
             <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src={kbIMG}
+                //src={kbIMG}
                 alt=""
               ></img>
 
               <h1 class="mt-4 text-xl lg:text-2xl font-semibold text-black capitalize group-hover:text-white">
-                Krish Bothra
+                MyServe
               </h1>
 
               <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">
-                Developer
+                Java/SQL Database
               </p>
 
               <div class="flex mt-3 -mx-2">
-                <a
-                  href="https://instagram.com/krishbothra19?utm_source=qr"
-                  class="mx-2 text-gray-800 hover:text-gray-500 group-hover:text-white"
-                >
-                  <svg
-                    class="h-7 w-7"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path stroke="none" d="M0 0h24v24H0z" />{" "}
-                    <rect x="4" y="4" width="16" height="16" rx="4" />{" "}
-                    <circle cx="12" cy="12" r="3" />{" "}
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                  </svg>
-                </a>
+                
 
                 <a
-                  href="https://www.linkedin.com/in/krish-bothra-7092b9264/?msgOverlay=true"
-                  class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                >
-                  <svg
-                    class="h-6 w-6 "
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />{" "}
-                    <rect x="2" y="9" width="4" height="12" />{" "}
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>{" "}
-                </a>
-
-                <a
-                  href="https://github.com/DumplingDefender"
+                  href="https://github.com/KrishBothra/MyServe"
                   class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 >
                   <svg

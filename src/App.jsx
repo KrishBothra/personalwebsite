@@ -18,7 +18,7 @@ function App() {
       <div className="pb-[500px] lg:pb-[800px] bg-[#121212] w-[screen]"></div>
       <DescriptionBlock />
       <ProcessBlock />
-      <ExampleBlock />
+      {/* <ExampleBlock /> */}
       <AboutUsBlock />
       <FAQBlock />
       <ContactBlock />
