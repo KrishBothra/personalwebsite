@@ -44,10 +44,10 @@ const features = [
 
 const DescriptionBlock = block(function Description() {
   return (
-    <div id="description" className="bg-[#9e9791] ">
+    <div id="description" className="bg-[#9e9791]  ">
       {/* <NavBlock /> */}
 
-      <div className="mx-auto grid max-w-screen grid-cols-1 lg:items-center gap-x-8 gap-y-4 lg:gap-y-16 px-4 sm:px-6 pt-8 lg:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+      <div className=" ml-20 grid min-w-screen grid-cols-1 lg:items-center gap-x-8 gap-y-4 lg:gap-y-16 px-4 sm:px-6  lg:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
           <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black sm:text-center mt-4 lg:mt-0 ">
             What We Provide
@@ -76,44 +76,15 @@ const DescriptionBlock = block(function Description() {
             ))}
           </dl>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-
-          <div className=" lg:visible h-0 lg:h-full">
-            <img
-              src={desc4}
-              alt="Stock Photo"
-              className="rounded-lg bg-gray-100"
-            />
-          </div>
-          <div className="invisible lg:visible h-0 lg:h-full">
-            <img
-              src={desc2}
-              alt="Stock Photo"
-              className="rounded-lg bg-gray-100"
-            />
-          </div>
-          <div className="invisible lg:visible h-0 lg:h-full">
-            <img
-              src={desc3}
-              alt="Stock Photo"
-              className="rounded-lg bg-gray-100"
-            />
-          </div>
-          <div className="invisible lg:visible h-0 lg:h-full">
+        <div className=" ">
+          <div className="">
             <img
               src={desc5}
               alt="Stock Photo"
-              className="rounded-lg bg-gray-100"
+              className="rounded-lg size-100"
             />
           </div>
         </div>
-      </div>
-      <div className="h-5/6">
-        <img
-          src={desc6}
-          alt="Stock Photo"
-          className="visible lg:invisible lg:pb-0 lg:h-0 "
-        />
       </div>
     </div>
   );
